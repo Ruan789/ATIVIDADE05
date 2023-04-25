@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        fieldset{
+            border-width: 2px;
+            width: 500px;
+            border-radius: 10px;
+            border-color: aliceblue;
+        }
+        main{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="table">
+            <fieldset>
+            <form action="">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                        <tr>
+                            <br>
+                                <label for="">Digite o seu nome:</label>
+                                <input type="text" name="nome" id="nome00" placeholder="Ex:João da Silva"><br><br>
+                                <label for="">Idade:</label>
+                                <input type="number" name="idade" id="idade00" placeholder="18"><br><br>
+                                <label for="">Email:</label>
+                                <input type="email" name="email" id="email00" placeholder="yourname@example.com"><br><br>
+                                <label for="">Senha:</label>
+                                <input type="password" placeholder="Digite uma senha forte:"><br><br><br>
+                                <label for="">Selecione seu estado:</label>
+                                <select name="select" id="select00">
+                                    <option value="none">Selecione:</option>
+                                    <option value="">Rio de Janeiro</option>
+                                    <option value="">São Paulo</option>
+                                    <option value="">Ceará</option>
+                                    <option value="">outro</option>
+                                </select>
+                </fieldset>
+                            <br>
+                           
+                                <fieldset>
+                                    <legend>Dados Profissionais</legend><br>
+                                    <label for="">Selecione as tecnologias</label><br><br>
+                                    <label for="">HTML</label>
+                                    <input type="checkbox" name="checkbox01" id="checkbox01">
+                                    <label for="">CSS</label>
+                                    <input type="checkbox" name="checkbox01" id="checkbox01">
+                                    <label for="">JS</label>
+                                    <input type="checkbox" name="checkbox02" id="checkbox02">
+                                    <label for="">Typescript</label>
+                                    <input type="checkbox" name="checkbox03" id="checkbox03"><br><br>
+                                    <label for="">Selecione sua Ocupação</label><br><br>
+                                    <label for="">Front-end</label>
+                                    <input type="radio" name="radio00" id="radio00">
+                                    <label for="">Back-end</label>
+                                    <input type="radio" name="radio01" id="radio01">
+                                    <label for="">Full Stack</label>
+                                    <input type="radio" name="radio02" id="radio02"><br><br><br>
+                                    <label for="">Escreva sobre você:</label><br>
+                                    <textarea name="text" id="" cols="40" rows="5" placeholder="Escreva aqui:"></textarea><br><br>
+                                    <input type="submit" value="Enviar">
+                                    <input type="reset" value="Cancelar">
+
+                                </fieldset>
+                            
+                        </tr>
+            </form>
+        </fieldset>
+        </div>
+    </div>
+</body>
+</html>
